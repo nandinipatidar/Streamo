@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(netflix-jpg.jpg);
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+}
+
+nav button {
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: white;
+    padding: 7px 20px;
+    font-size: 22px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+.hearder-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* margin-top: 100px; */
+
+}
+
+
+.email-signin {
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.email-signin input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+
+
+}
+
+.email-signin button {
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 22px;
+    /* font-weight: bold; */
+    padding: 20px;
+    cursor: pointer;
+}
+.email-signin button a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------img 1---------------------- */
+.features {
+    background: rgba(9, 30, 39, 0.979);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1px;
+}
+
+.img-col {
+    margin: 150px, auto;
+    /* width: 50px; */
+
+    margin-left: 80px;
+
+}
+
+.img-col img {
+    margin-top: 70px;
+    max-width: 420px;
+    float: right;
+    margin-bottom: 50px;
+
+}
+
+.text-col h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.text-col p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* -------------------------------------------------------number------------------------------------------------------------------ */
+/* .row{
+    margin: 10% auto;
+
+} */
+
+/* .......................................................img2.......................................................... */
+.features1 {
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1px;
+    /* margin-bottom: 50px; */
+}
+
+.text-col1 {
+    margin-left: 100px;
+}
+
+.text-col1 h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.text-col1 p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.img-col1 {
+    margin: 150px, auto;
+    /* width: 50px; */
+
+    margin-left: 80px;
+
+}
+
+.img-col1 img {
+    margin-top: 70px;
+    max-width: 420px;
+    float: left;
+    margin-bottom: 50px;
+
+}
+
+/* ..........................................card............................................... */
+
+.container {
+
+    display: flex;
+    margin:  50px 100px;
+
+}
+
+
+.card2{
+    width: 100%;
+    /* margin-left: 20px; */
+    border: 1px solid black;
+    text-align: center;
+    background: rgb(53, 50, 50);
+    /* margin-bottom: 20px; */
+    border-radius: 5px;
+}
+.card {
+    width: 100%;
+    margin-left: 20px;
+    border: 1px solid black;
+    text-align: center;
+    background: rgb(53, 50, 50);
+    /* margin-bottom: 20px; */
+    border-radius: 5px;
+}
+
+.card-body {
+    margin: 10px 10px;
+
+}
+
+.card-body h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+.card-body p {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.card-body button {
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: white;
+    padding: 7px 20px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* ..............................................card2................................................... */
+
+
+.heading h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.image {
+    display: flex;
+    margin: 60px;
+
+}
+.img-content1 {
+    width: 100%;
+    /* margin-left: 20px; */
+    border: 1px solid black;
+    text-align: center;
+    /* background: rgb(53, 50, 50); */
+    /* margin-bottom: 20px; */
+
+}
+.img-content1:hover{
+    transform: scale(1.1);
+}
+
+.img-content {
+    width: 100%;
+    margin-left: 20px;
+    border: 1px solid black;
+    text-align: center;
+    /* background: rgb(53, 50, 50); */
+    /* margin-bottom: 20px; */
+
+}
+.img-content:hover{
+    transform: scale(1.1);
+}
+
+.img-1 img {
+    border-radius: 10px;
+}
+
+/* ...................................................question.................................................... */
+
+.faq {
+    background: rgba(9, 30, 39, 0.979);
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.faq h2 {
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.accordion {
+
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+.accordion li {
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    background: black;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after {
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.accordion .content {
+    background: black;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked+label+.content {
+    max-height: 600px;
+    padding: 30px, 20px;
+}
+
+.accordion input[type="radio"]:checked+label::after {
+    transform: rotate(135deg);
+}
+
+/* .....................................................................  */
+
